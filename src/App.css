@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -12,6 +10,90 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+.navbar {
+  display: block;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  text-align: right;
+}
+
+.navbar li {
+  display: inline-block;
+  background-color: transparent;
+}
+
+.navbar a {
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: transparent;
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  color: #95f6c2;
+}
+
+
+.main-body-1 {
+  text-align-last: center;
+  margin-top: 40px;
+}
+
+.main-body-1 h1 {
+  font-size: 150px;
+}
+
+.main-body-1 h2 {
+  font-size: 75px;
+  margin-bottom: 40px;
+}
+
+.goals li {
+  margin-bottom: 20px;
+}
+
+.goals p {
+  text-decoration: underline;
+}
+
+.main-body-1 h4 {
+  font-size: 32.5px;
+}
+
+hr.sep-3 {
+  border: none;
+  height: 1px;
+  background-image: linear-gradient(to right, black, #00D362, black);
+}
+hr.sep-3::after {
+  content: '👽';
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  background-color: transparent;
+}
+
+.about-section h3 {
+  text-align: center;
+}
+  
+
 
 .App-header {
   background-color: #282c34;

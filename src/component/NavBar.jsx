@@ -4,18 +4,16 @@ import React from 'react';
 const NavBar = () => {
     return (
         <>
-        <ReactBootStrap.Navbar bg="dark" variant="dark">
-    <ReactBootStrap.Container>
-    <ReactBootStrap.Navbar.Brand href="#home">Chaney Coding</ReactBootStrap.Navbar.Brand>
-    <ReactBootStrap.Nav className="me-auto">
-      <ReactBootStrap.Nav.Link href="#home">Home</ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link href="#features">About Me</ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link href="#pricing">Portfolio</ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link href="#contact">Contact</ReactBootStrap.Nav.Link>
-
-    </ReactBootStrap.Nav>
-    </ReactBootStrap.Container>
-  </ReactBootStrap.Navbar>
+        <div className="navbar">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
         </>
     )
 }
