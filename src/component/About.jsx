@@ -1,4 +1,5 @@
 import React from 'react';
+import alien from '../alien.png';
 
 const About = () => {
     return (
@@ -46,7 +47,8 @@ const About = () => {
                     <li>Improve my understanding of Javascript deeply</li>
                     <li>Learn other programming languages.</li>
                 </ul>
-            </div>        
+            </div>
+                <img src={alien} className="alien" alt="alien" />        
         </div>
         </div>
 

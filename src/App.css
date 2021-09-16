@@ -21,6 +21,31 @@
   text-align: right;
 }
 
+@media only screen and (max-width: 500px) {
+  .main-body-1 h1 {
+    text-align: center;
+  }
+
+  .goals {
+    margin-top: 250px;
+  }
+
+
+}
+
+@media only screen and (max-width: 915px) {
+.alien {
+  height: 150px;
+  width: 125px;
+  display: inline-block;
+  position: absolute;
+  right: 0%;
+  top: 247%;
+  left: 73%;
+}
+
+}
+
 .navbar li {
   display: inline-block;
   background-color: transparent;
@@ -92,6 +117,7 @@ hr.sep-3::after {
 .about-section h3 {
   text-align: center;
 }
+
   
 
 
