@@ -5,6 +5,7 @@ import NavBar from './component/NavBar';
 import Video from './component/Video';
 import Main from './component/Main';
 import About from './component/About';
+import { BrowserRouter as Router, Link} from 'react-router-dom';
 
 
 function App() {
