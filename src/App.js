@@ -5,6 +5,8 @@ import NavBar from './component/NavBar';
 import Video from './component/Video';
 import Main from './component/Main';
 import About from './component/About';
+import Imgs from './component/Carosel';
+import carouselImgs from './component/Carosel2';
 import { BrowserRouter as Router, Link} from 'react-router-dom';
 
 
@@ -15,7 +17,7 @@ function App() {
 
         <Main />
 
-        <About />
+        <Imgs />
 
         <p style={{fontSize: "10px"}}>Created by: Devan Chaney | Last Update: 09/12/2021</p>
     </>
