@@ -9,8 +9,6 @@ const Main = () => {
             <h2 className="animate__animated animate__backInRight">Chaney</h2>
             <h4 className="animate__animated animate__backInUp">Aspiring Fullstack Engineer</h4>
         </div>
-        <br />
-        <hr class="sep-3" />
         </>
     )
 }

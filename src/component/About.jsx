@@ -11,7 +11,7 @@ const About = () => {
 
             <br />
 
-        <div style={{ textAlign: 'left' }}>
+        <div style={{ textAlign: 'left', color: 'white'}}>
             <div className="animate__animated animate__bounceInLeft">
                 <h1>Just a simple programmer from a small town 
                     <br />
@@ -27,7 +27,7 @@ const About = () => {
                 </h1>
         </div>
         </div>
-        <div style={{ textAlign: 'right', marginLeft: '600px' }}>
+        <div style={{ textAlign: 'right', marginLeft: '600px', color: 'white'}}>
         <div className="animate__animated animate__bounceInRight">
 
                     <h1>A full stack developer having fun.
@@ -45,7 +45,7 @@ const About = () => {
                         <br />
         </div>
         </div>
-        <div style={{textAlign: 'left', marginRight: '0px' }}>
+        <div style={{textAlign: 'left', marginRight: '0px', color: 'white'}}>
         <div className="animate__animated animate__bounceInLeft">
 
                     <h1>Skills in HTML, CSS, Javascript, React, 
@@ -60,7 +60,7 @@ const About = () => {
         </div>
 
         <hr class="sep-3" />
-        <p style={{fontSize: '10px'}}>EST: 2020 | Last Update: September 26, 2021 4:31 AM</p>
+        <p style={{fontSize: '10px', color: 'white'}}>EST: 2020 | Last Update: September 26, 2021 4:31 AM</p>
         </>
     )
 }
