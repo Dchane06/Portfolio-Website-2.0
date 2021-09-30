@@ -6,12 +6,14 @@ import Main from './Main'
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
+import clouds from '../clouds.png';
+import grass from '../grass.png'
 
 const NavBar = () => {
     return (
         <Router>
         <>
-        <div className="navbar">
+        <div className="navbar" style={{marginTop: '40px', textDecoration: 'underline'}}>
             <nav>
                 <ul>
                     <li><Link to={`/`}>Home</Link></li>
@@ -21,6 +23,11 @@ const NavBar = () => {
                 </ul>
             </nav>
         </div>
+        
+        <div className="clouds">
+    <img src={clouds}  alt='clouds' style={{height: '275px', width: '1400px'}}/>
+        </div>
+
         <div>
         <Switch>
             <Route path="/contact">
@@ -38,6 +45,11 @@ const NavBar = () => {
         </Switch>
         </div>
         </>
+
+        <div className="grass">
+            <img src={grass} alt='grass' style={{height: '125px', width: '1450px', marginBottom: '0px'}}/>
+        </div>
+
         </Router>
     )
 }

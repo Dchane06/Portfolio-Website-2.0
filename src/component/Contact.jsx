@@ -3,9 +3,9 @@ import React from 'react';
 const Contact = () => {
     return (
         <>
-        <h1 className="animate__animated animate__zoomIn" style={{textAlign: 'center'}}>Contact Page</h1>
+        <h1 className="animate__animated animate__zoomIn" style={{textAlign: 'center', color: 'white'}}>Contact Page</h1>
         <hr class="sep-3" />
-        <h1 className="animate__animated animate__zoomIn" style={{textAlign: 'center'}}>Email: <a href="mailto:dchane06@hotmail.com">Dchane06@hotmail.com</a></h1>
+        <h1 className="animate__animated animate__zoomIn" style={{textAlign: 'center', color: 'white'}}>Email: <a href="mailto:dchane06@hotmail.com">Dchane06@hotmail.com</a></h1>
         <h1 className="animate__animated animate__zoomIn" style={{textAlign: 'center'}}><a href="https://github.com/Dchane06" target="_blank">GitHub</a>
         <br />
               <a className="animate__animated animate__zoomIn" href="https://www.linkedin.com/in/james-chaney-coding" target="_blank">LinkedIn</a></h1>             
